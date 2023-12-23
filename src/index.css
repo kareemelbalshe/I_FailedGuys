@@ -1,0 +1,167 @@
+
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+:root {
+    --dark-coler: #19283f;
+    --green-coler: #33d1cc;
+    --red-coler: #ff3150;
+    --yellow-coler: #ffc400;
+    --section-coler: #eff7fa
+}
+/* start navbar  */
+.navbar {
+    background-color: var(--dark-coler);
+    flex-wrap: nowrap !important;
+}
+.navbar .container {
+    flex-wrap: wrap !important;
+}
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green-coler);
+}
+
+.navbar .search {
+    border-left: 1px solid var(--green-coler);
+}
+.navbar .search svg {
+    color: var(--green-coler);
+}
+.navbar .navbar-toggler {
+    color: white;
+    font: 25px;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.top {
+    top: 0;
+}
+/* end navbar  */
+/* satart sidbar  */
+.contant {
+    position: relative;
+}
+.sidbar {
+    background-color: var(--dark-coler);
+    min-height: calc(100vh - 72px);
+    min-width: 216px !important;
+}
+.sidbar .sidbar-contant ul {
+    position: fixed;
+}
+.sidbar .sidbar-contant ul li {
+    transition: 0.3s;
+}
+.sidbar .sidbar-contant ul li a:focus,
+.sidbar .sidbar-contant ul li a:hover,
+.sidbar .sidbar-contant ul li a .active {
+    color: var(--green-coler) !important;
+}
+.sidbar .sidbar-contant ul li:hover {
+    padding-left: 5px;
+}
+/* end sidbar  */
+/* start details  */
+.text-color {
+    color: var(--red-coler) !important;
+}
+.contant {
+
+    background-color: var(--section-coler) !important;
+}
+.flex-1 {
+    flex: 1 !important;
+}
+/* end details  */
+/* start cards  */
+.price {
+    color: var(--red-coler);
+}
+/* end cards  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  background-color: #ddd;
+  overflow-x: hidden !important;
+}
+*{
+  box-sizing: border-box;
+}
+form{
+  display: block;
+  background-color: rgb(248, 249, 250);
+  /* box-shadow  1px 3px 2px  #ddd; */
+  margin: 40px auto;
+  /* max-width:600px; */
+  max-height: 700px;
+  padding: 25px 40px;
+}
+form input,textarea{
+  display: flex;
+  flex-direction:column ;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #f1f1f1;
+  border:#ddd ;
+}
+form span{
+  color: #91c2d8;
+}
+form button{
+  height: 30px;
+  width: 88px ;
+  align-items: center;
+  border: none;
+  background-color: #91c2d8;
+  cursor: pointer;
+}
+.map-section .line {
+  width: 25%;
+  height: 3px;
+  background-color: var(--primary);
+  position: relative;
+}
+.map-section .line::after {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: var(--primary);
+  transform: rotate(-40deg);
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+iframe {
+  height: 400px;
+  width: 100%;
+}
+.sidebar {
+    margin-left: 20px;
+    height: 100vh;
+}
+.sidebar li {
+    padding: 10px 3px 3px 8px;
+    border-bottom: 1px solid #000000;
+}
+.sidebar li a {
+    text-decoration: none;
+    color: #000000;
+    transition: 0.3s;
+}
+.sidebar li a:hover {
+    padding-left: 10px;
+    color: #E91E63;
+}

@@ -1,0 +1,113 @@
+body {
+    background-color: #fff;
+}
+.contact_landing {
+    width: 100%;
+
+    background-image: url("../../public/shape\ \(1\)_en.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 660px;
+    /* color: #fff; */
+    margin-bottom: 2rem;
+    text-align: justify;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.contact_landing .logo {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.contact_landing .line {
+    width: 35%;
+    height: 2px;
+    background-color: #fff;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .contact_landing {
+        width: auto;
+        background-image: none;
+        /* height: 560px; */
+        /* color: #fff; */
+        margin-bottom: 2rem;
+        overflow: hidden;
+        /* background-color: #f8f8f8; */
+        margin-top: 40px;
+        color: black;
+    }
+    .contact_landing .line {
+        width: 35%;
+        height: 2px;
+        background-color: #000000;
+    }
+}
+/* info-sec */
+
+.info-sec {
+    background-color: #fbfbfb;
+}
+
+.box1 {
+    padding-bottom: 100px;
+}
+
+.box2 {
+    padding-top: 100px;
+}
+
+.info-sec .contant-icon {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 6px #888;
+}
+.info-sec .contant-icon img {
+    width: 50px;
+}
+
+.info-sec .contant-icon i {
+    color: red;
+    font-size: 50px;
+}
+.content-icon1 i {
+    color: var(--primary);
+    transform: scale(-1);
+}
+.info-sec p {
+    direction: rtl;
+    line-height: 1.6;
+    text-align: justify;
+    position: relative;
+}
+
+/* .info-sec p::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent red;
+    top: 7px;
+    right: -18px;
+} */
+
+@media (max-width: 767px) {
+    .box1 {
+        padding-bottom: 0;
+    }
+    .box2 {
+        padding-top: 0;
+    }
+    .video-box video {
+        height: 200px;
+    }
+}
