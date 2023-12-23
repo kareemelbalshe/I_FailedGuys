@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/I_FailedGuys/static/css/main.a7b11a7e.css",
+    "main.js": "/I_FailedGuys/static/js/main.272b0698.js",
+    "static/js/787.8cdd6495.chunk.js": "/I_FailedGuys/static/js/787.8cdd6495.chunk.js",
+    "static/media/shape (1)_en.png": "/I_FailedGuys/static/media/shape (1)_en.523226eff8c023e10e0b.png",
+    "index.html": "/I_FailedGuys/index.html",
+    "main.a7b11a7e.css.map": "/I_FailedGuys/static/css/main.a7b11a7e.css.map",
+    "main.272b0698.js.map": "/I_FailedGuys/static/js/main.272b0698.js.map",
+    "787.8cdd6495.chunk.js.map": "/I_FailedGuys/static/js/787.8cdd6495.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7b11a7e.css",
+    "static/js/main.272b0698.js"
+  ]
+}
